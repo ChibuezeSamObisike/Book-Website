@@ -1,0 +1,163 @@
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #f8f8f8;
+    height: 50vh;
+    width: 100vw;
+    padding: 100px;
+    padding-left: 250px;
+    padding-bottom: 200px;
+    padding-right: 200px;
+}
+
+.image-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -350px;
+}
+
+.header-main {
+    display: flexbox;
+    margin-top: 50px;
+}
+
+.header-text {
+    font-family: "Playfair Display", serif;
+    line-height: 32px;
+    font-family: "Questrial", sans-serif;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 58px;
+    color: #232323;
+}
+
+h1>span {
+    color: #336079;
+}
+
+.book {
+    width: 700px;
+    height: auto;
+    margin-top: -200px;
+    margin-left: 100px;
+}
+
+.btn-download {
+    margin-top: 50px;
+    padding: 15px;
+    background: #232323;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 3px;
+}
+
+.wwa {
+    text-align: center;
+    font-family: "Questrial", sans-serif;
+    font-size: 30px;
+}
+
+.help {
+    width: 100px;
+    height: auto;
+}
+
+.second-header {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Questrial", sans-serif;
+    font-size: 25px;
+    background-color: #f8f8f8;
+    width: 60rem;
+    padding: 25px;
+}
+
+.help-text {
+    margin-left: 20px;
+    line-height: 50px;
+}
+
+.links {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.links>a {
+    text-decoration: none;
+    padding: 40px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: "Questrial", sans-serif;
+    color: #232323;
+}
+
+.form-group {
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.input {
+    border: none;
+    outline: none;
+    padding: 20px;
+    padding-right: 80px;
+    background-color: #f8f8f8;
+    width: 500px;
+}
+
+.submit-btn {
+    background-color: #232323;
+    padding: 20px;
+    margin-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media (max-width: 1000px) {
+    header {
+        height: 90vh;
+    }
+    .header-main {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    h1 {
+        font-size: 20px;
+        margin-bottom: 100px;
+    }
+    .header-txt {
+        margin-bottom: -100px;
+        margin-left: -150px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+    }
+    .image-header {
+        margin-left: -600px;
+    }
+    .btn-download {
+        padding: 15px;
+        background: #232323;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        border-radius: 3px;
+    }
+}
